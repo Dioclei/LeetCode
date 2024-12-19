@@ -9,6 +9,11 @@
 # - take the smaller head
 # - recursively sort and append to the tail
 
+# Iterative:
+# - note that it is possible to do this iteratively
+# - using a while loop and comparing heads of each list,
+# - remove heads until both lists are empty
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
